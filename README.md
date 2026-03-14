@@ -71,15 +71,14 @@ Dashboard ID: 14282
 
 ![Grafana](screenshots/grafana-dashboard.png)
 
----
+
 
 ### Prometheus Targets
 
 ![Prometheus](screenshots/prometheus-targets.png)
 
----
+
 
 ### Docker Containers
 
 ![Docker](screenshots/docker-containers.png)
-=======
