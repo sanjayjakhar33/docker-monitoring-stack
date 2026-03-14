@@ -64,3 +64,20 @@ Dashboard ID: 14282
 - Host resource monitoring
 - Prometheus time-series metrics
 - Grafana visualization
+## Monitoring Dashboards
+
+### Grafana Dashboard
+
+![Grafana](screenshots/grafana-dashboard.png)
+
+---
+
+### Prometheus Targets
+
+![Prometheus](screenshots/prometheus-targets.png)
+
+---
+
+### Docker Containers
+
+![Docker](screenshots/docker-containers.png)
