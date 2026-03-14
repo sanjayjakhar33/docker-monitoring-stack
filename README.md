@@ -26,7 +26,7 @@ Docker Host
 
 Clone repository:
 
-git clone https://github.com/YOUR_USERNAME/docker-monitoring-stack.git
+git clone https://github.com/sanjayjakhar33/docker-monitoring-stack.git
 
 cd docker-monitoring-stack
 
