@@ -1,3 +1,8 @@
+![Docker](https://img.shields.io/badge/Docker-Container-blue)
+![Prometheus](https://img.shields.io/badge/Prometheus-Monitoring-orange)
+![Grafana](https://img.shields.io/badge/Grafana-Dashboard-yellow)
+
+
 # Docker Microservices Monitoring Stack
 
 This project demonstrates a production-style monitoring stack for Docker containers using Prometheus, Grafana, cAdvisor, and Node Exporter.
