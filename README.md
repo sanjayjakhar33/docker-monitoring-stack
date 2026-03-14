@@ -64,7 +64,7 @@ Dashboard ID: 14282
 - Host resource monitoring
 - Prometheus time-series metrics
 - Grafana visualization
-<<<<<<< HEAD
+
 ## Monitoring Dashboards
 
 ### Grafana Dashboard
@@ -83,36 +83,3 @@ Dashboard ID: 14282
 
 ![Docker](screenshots/docker-containers.png)
 =======
-
-
-+---------------------------------------------------------------------------+
-|                               DOCKER HOST                                 |
-|                        (Docker Compose Network)                           |
-|                                                                           |
-|  +---------------------------------------------------------------------+  |
-|  |                      MICROSERVICES / CONTAINERS                     |  |
-|  |   [App1]   [App2]   [App3]   [ ... ]                                 |  |
-|  +---------------------------------------------------------------------+  |
-|        |                        |                                        |
-|        |                        |                                        |
-|   +----v---------+       +------v--------+                               |
-|   |  cAdvisor    |       | Node Exporter |                               |
-|   |  Port 8080   |       |  Port 9100    |                               |
-|   +------+-------+       +------+--------+                               |
-|          |                      |                                        |
-+----------|----------------------|----------------------------------------+
-           |                      |
-           | HTTP Scrape (15s)   |
-           |                      |
-      +----v----------------------v----+
-      |            PROMETHEUS          |
-      |        Port 9090               |
-      |      Time-Series Database      |
-      +---------------+----------------+
-                      |
-                      | PromQL Query
-                      |
-               +------v------+
-               |   GRAFANA   |
-               |   Port 3000 |
-               +-------------+
